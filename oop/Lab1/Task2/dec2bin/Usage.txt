@@ -1,0 +1,4 @@
+Usage: dec2bin.exe [NUMBER]
+Convert a decimal number to binary.
+
+If no NUMBER is provided, the program reads from stdin.
