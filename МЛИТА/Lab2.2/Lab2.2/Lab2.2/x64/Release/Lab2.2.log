@@ -1,0 +1,8 @@
+﻿  Lab2.2.cpp
+D:\Labs\MLITA\Lab2.2\Lab2.2\Lab2.2.cpp(153,101): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода
+  3 of 452 functions ( 0.7%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Создание кода завершено
+  Lab2.2.vcxproj -> D:\Labs\MLITA\Lab2.2\Lab2.2\x64\Release\Lab2.2.exe
