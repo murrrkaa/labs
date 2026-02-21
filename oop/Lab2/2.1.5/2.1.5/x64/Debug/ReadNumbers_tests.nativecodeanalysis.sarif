@@ -1,0 +1,371 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "Эта функция не может выдавать исключения (throw). Объявите ее как \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 11854,
+                  "startColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::ScopedMessage::{ctor}",
+                  "decoratedName": "??0ScopedMessage@Catch@@QEAA@$$QEAV01@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::Option<unsigned __int64>::storage\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 4411,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::Option<unsigned __int64>::{ctor}",
+                  "decoratedName": "??0?$Option@_K@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::Option<unsigned __int64>::storage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::<unnamed-tag>::m_value\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 8961,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::{ctor}",
+                  "decoratedName": "??0?$ResultValueBase@VParseState@detail@clara@Catch@@@detail@clara@Catch@@IEAA@AEBV0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::<unnamed-tag>::m_value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::Option<Catch::AssertionResult>::storage\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 4411,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::Option<Catch::AssertionResult>::{ctor}",
+                  "decoratedName": "??0?$Option@VAssertionResult@Catch@@@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::Option<Catch::AssertionResult>::storage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::Option<Catch::TestCaseInfo>::storage\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 4411,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::Option<Catch::TestCaseInfo>::{ctor}",
+                  "decoratedName": "??0?$Option@UTestCaseInfo@Catch@@@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::Option<Catch::TestCaseInfo>::storage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::Option<Catch::GroupInfo>::storage\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 4411,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::Option<Catch::GroupInfo>::{ctor}",
+                  "decoratedName": "??0?$Option@UGroupInfo@Catch@@@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::Option<Catch::GroupInfo>::storage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::Option<Catch::TestRunInfo>::storage\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 4411,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::Option<Catch::TestRunInfo>::{ctor}",
+                  "decoratedName": "??0?$Option@UTestRunInfo@Catch@@@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::Option<Catch::TestRunInfo>::storage"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::<unnamed-tag>::m_value\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 8959,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::{ctor}",
+                  "decoratedName": "??0?$ResultValueBase@VParseState@detail@clara@Catch@@@detail@clara@Catch@@IEAA@W4Type@ResultBase@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::clara::detail::ResultValueBase<Catch::clara::detail::ParseState>::<unnamed-tag>::m_value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::<unnamed-tag>::m_value\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 8959,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::{ctor}",
+                  "decoratedName": "??0?$ResultValueBase@W4ParseResultType@detail@clara@Catch@@@detail@clara@Catch@@IEAA@W4Type@ResultBase@123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::<unnamed-tag>::m_value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::<unnamed-tag>::m_value\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 8961,
+                  "startColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::{ctor}",
+                  "decoratedName": "??0?$ResultValueBase@W4ParseResultType@detail@clara@Catch@@@detail@clara@Catch@@IEAA@AEBV0123@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::clara::detail::ResultValueBase<enum Catch::clara::detail::ParseResultType>::<unnamed-tag>::m_value"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Переменная \"Catch::clara::detail::Token::type\" не инициализирована. Всегда инициализируйте переменную-член (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+                },
+                "region": {
+                  "startLine": 8852,
+                  "startColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "Catch::clara::detail::Token::{ctor}",
+                  "decoratedName": "??0Token@detail@clara@Catch@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "Catch::clara::detail::Token::type"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.41.34120.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/Labs/OOP/catch2/catch.hpp"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3725c0f0a75f376a5005dde31ead0feb8f7da7507644c201b814443de8355170"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/labs/oop/lab2/2.1.5/2.1.5/readnumbers_tests.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "77def3cc4d527f17a7560cee2ed5bde532d23a4a940251b37a415d511a15cdea"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///d:/labs/oop/lab2/2.1.5/2.1.5/readnumbers.h"
+          },
+          "hashes": {
+            "sha-256": "2c416e144b4becb6219443bd944367cafc78f0cd2d65fa5ffdf3db408e33d3dd"
+          }
+        }
+      ]
+    }
+  ]
+}
