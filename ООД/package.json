@@ -1,0 +1,22 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "@types/electron": "^1.6.12",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^20.3.1",
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2",
+    "ts-jest": "^29.4.4",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "electron": "^25.0.0",
+    "prettier": "^3.6.2"
+  }
+}
